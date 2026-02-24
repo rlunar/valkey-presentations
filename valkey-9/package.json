@@ -1,0 +1,25 @@
+{
+  "name": "valkey-9-presentation",
+  "version": "1.0.0",
+  "description": "Valkey 9.0 feature presentation with Slidev",
+  "scripts": {
+    "dev": "slidev valkey-9-presentation.md",
+    "build": "slidev build valkey-9-presentation.md",
+    "export": "slidev export valkey-9-presentation.md",
+    "export:pdf": "slidev export valkey-9-presentation.md --format pdf",
+    "export:pptx": "slidev export valkey-9-presentation.md --format pptx"
+  },
+  "keywords": [
+    "valkey",
+    "presentation",
+    "slidev",
+    "database",
+    "redis"
+  ],
+  "author": "Valkey Developer Advocate",
+  "license": "MIT",
+  "devDependencies": {
+    "@slidev/cli": "^0.49.0",
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
